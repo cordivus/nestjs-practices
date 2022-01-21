@@ -24,7 +24,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This branch contains a brief example of controllers and services, initialization of a project using as a database just a JSON file.
 
 ## Installation
 
