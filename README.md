@@ -24,7 +24,18 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This branch contains an example project which includes all the API REST design process, the db used is sqlite, starting from a high level view:
+
+![api-design-hl-overview](https://user-images.githubusercontent.com/52140751/150571713-3171fce1-cced-4915-942f-adcaca0ad703.png)
+
+And then destructuring all the application to a lower level according the requirements, first for the routes needed:
+
+![nest-apidesign-routes](https://user-images.githubusercontent.com/52140751/150572001-7371b2f6-9f69-480e-9f1a-963e99b2e638.png)
+
+Second for the modules:
+
+![nest-apidesign-hl-model](https://user-images.githubusercontent.com/52140751/150572063-7d597772-1b23-42bc-b312-79cdaa374f27.png)
+
 
 ## Installation
 
