@@ -24,7 +24,17 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This branch contains the creation of an interceptor, with interceptors we can manipulate request before it goes to the handler or response before it goes to the client using DTOs as a medium for acomplish certain rules.
+
+Steps to create an interceptor:
+
+![interceptor](https://user-images.githubusercontent.com/52140751/150619260-663cffc7-0516-48ce-a63b-d7f33d2d7f85.png)
+
+
+The example in this project is:
+
+![interceptors](https://user-images.githubusercontent.com/52140751/150619228-937cce02-7fe9-4ffe-ad23-3d6d33a6c109.png)
+
 
 ## Installation
 
