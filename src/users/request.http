@@ -3,8 +3,17 @@ POST http://localhost:3000/auth/signup
 content-type: application/json
 
 {
-    "email": "jose@thebest.com",
-    "password": "52345234fas"
+    "email": "jose2@thebest.com",
+    "password": "5234523rgds"
+}
+
+### Signin
+POST http://localhost:3000/auth/signin
+content-type: application/json
+
+{
+    "email": "jose2@thebest.com",
+    "password": "5234523rgds"
 }
 
 ### Find a user with id
