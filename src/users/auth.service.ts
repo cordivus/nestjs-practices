@@ -8,9 +8,12 @@ import { promisify } from 'util';
 import { UsersService } from './users.service';
 /** En este ejemplo de autorizacion utilizamos auth service para signup y signin
  *
+ * Signup crea un nuevo usuario (la logica se encuentra comentada en el metodo signUp)
+ *
  * Para signin, se recibe el mail y la contraseña del usuario, la contraseña luego es hasheada con un salt
  * se recupera el valor de password que se encuentra en la base de datos y se compara con la haseada ingresada
- * por el usuario, si coinciden es correcta.
+ * por el usuario, si coinciden es correcta.(logica comentada al metodo signin)
+ *
  */
 const scrypt = promisify(_scrypt);
 

@@ -1,4 +1,4 @@
-### Create a new user
+### Create a new user (SignUp)
 POST http://localhost:3000/auth/signup
 content-type: application/json
 
@@ -15,6 +15,12 @@ content-type: application/json
     "email": "jose2@thebest.com",
     "password": "5234523rgds"
 }
+
+### signOut
+POST http://localhost:3000/auth/signout
+
+### Return a user with current user decorator
+GET http://localhost:3000/auth/whoami
 
 ### Find a user with id
 GET http://localhost:3000/auth/2

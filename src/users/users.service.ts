@@ -13,6 +13,11 @@ export class UsersService {
   }
 
   async findOne(id: number) {
+    if (!id) {
+      //en caso de que id sea null, find va a devolver el primer usuario,
+      // para que no lo devuelva se coloca esta operacion
+      return null;
+    }
     return await this.repo.findOne({ id });
   }
 
