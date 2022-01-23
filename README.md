@@ -27,23 +27,29 @@
 This branch contains an example of authentication and authorization using cookie-session and guards for the authorization, and other libraries for the authorization to salt, hash the password
 
 Next is a diagram that describe the behavior of a signup using cookies for session management:
+
 ![authentication](https://user-images.githubusercontent.com/52140751/150700494-c6f37ca5-7a9f-4857-9b06-1d1f2bbefcd9.png)
 
 then we stablish the arquitecture for add the auth service:
+
 ![authentication1](https://user-images.githubusercontent.com/52140751/150700530-1733b5df-290f-4b56-95bb-8fde668883cc.png)
 
 ![authentication3](https://user-images.githubusercontent.com/52140751/150700539-a9a2d294-c7fb-455c-a145-f47c7885672c.png)
 
 Indication of the handlers that includes an auth:
+
 ![authentication7](https://user-images.githubusercontent.com/52140751/150700639-a077a06a-0666-43d4-bfa9-6740c4917d52.png)
 
 The next diagram describes the SignIn flow:
+
 ![authentication4](https://user-images.githubusercontent.com/52140751/150700564-fbc74612-eae3-47c9-b12b-733f4aedffac.png)
 
 Signup flow:
+
 ![authentication5](https://user-images.githubusercontent.com/52140751/150700577-b394591c-50e6-459d-80cf-38aac87a7d55.png)
 
 Guard behavior:
+
 ![authentication9](https://user-images.githubusercontent.com/52140751/150700658-ff06926f-64c9-49c3-8189-ebf39c8ba846.png)
 
 
